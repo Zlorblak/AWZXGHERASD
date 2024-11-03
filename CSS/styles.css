@@ -96,7 +96,7 @@ ul {
 }
 
 nav {
-    margin-top: 73px;
+    margin-top: 72px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -244,6 +244,7 @@ article {
 
 article img {
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .Cateogria {
