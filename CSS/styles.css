@@ -205,7 +205,7 @@ nav ul .Search .Options button {
 
 nav ul .Search:hover, nav ul .Menu-Logo:hover,nav ul .Menu-Logo h2:hover {
     background-color: #ccc;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @media (max-width:650px){
