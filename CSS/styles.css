@@ -113,7 +113,7 @@ nav ul li h2, nav a, nav ul li h3 {
     color: #0E4071;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 nav ul li h2:hover, nav ul li a:hover, nav ul li h3:hover, nav ul li h2:focus, nav ul li a:focus, nav ul li h3:focus {
@@ -174,7 +174,6 @@ nav ul .Search {
 nav ul .Search .Options input {
     padding: 5px 0px 5px 37px;
     border: 2px solid #979797;    
-    border-bottom: 2px solid #e3e3e3;
 }
 
 nav ul .Search .Options input:focus {
