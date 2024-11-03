@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DropShop Chile</title>
+        <meta name="description" content="Descubre productos para el hogar, belleza y tecnología en DropShop Chile. Calidad y variedad a un clic. Encuentra lo que necesitas para tu hogar y tu vida diaria.">
+        <meta name="keywords" content="productos para el hogar, belleza, tecnología, tienda online, DropShop Chile, decoración, gadgets, cuidado personal">
+        <meta property="og:title" content="DropShop Chile">
+        <meta property="og:description" content="Descubre productos para el hogar, belleza y tecnología en DropShop Chile. Calidad y variedad a un clic.">
+        <meta property="og:image" content="assets/icons/Logo.png">
+        <meta property="og:url" content="https://www.dropshopchile.com">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+        <link rel="alternate" href="https://www.instagram.com/drop.shopchile/" title="Síguenos en Instagram">
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "DropShop Chile",
+                "url": "https://www.dropshopchile.com",
+                "description": "Tienda online de productos para el hogar, belleza y tecnología.",
+                "logo": "assets/icons/Logo.png"
+            }
+        </script>
+        <script src="JS/lazyload.js" async=""></script>
+        <script>window.lazySizesConfig=window.lazySizesConfig||{};window.lazySizesConfig.loadMode=0.2;window.lazySizesConfig.expand=0;</script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Todo lo que necesitas, en un solo lugar</h1>
+            <p>Productos variados con envíos gratuitos en la Región Metropolitana y opciones para todo Chile</p>
+        </header>
+
+        <nav>
+            <a href="/" title="Dirigirte al inicio">
+                <picture>
+                    <source srcset="Icons/Logo.webp" type="image/webp">
+                    <img src="Icons/Logo.png" width="160" height="160" alt="DropShop Chile">
+                </picture>
+            </a>
+
+            <ul>
+                <li class="Menu-Logo">
+                    <img src="Icons/menu.svg" width="30" height="30" alt="Icono menú">
+                    <h2>Menú</h2>
+                    <button id="Close" title="Cerrar menú">
+                        <img src="Icons/close.svg" width="30" height="30">
+                    </button>
+                </li>
+
+                <li class="Search">
+                    <div class="Options">
+                        <img src="Icons/lupa.svg" width="25" height="25" alt="Icono lupa">
+
+                        <input type="text" placeholder="Buscar producto....">
+                        <button id="Buscar">Buscar</button>
+                    </div>
+
+                    <button id="Close-1" title="Cerrar buscador">
+                        <img src="Icons/close.svg" width="30" height="30">
+                    </button>
+                </li>
+                <li><a href="/" title="Dirigirte al inicio"><h2>Inicio</h2></a></li>
+                <li class="SubMenu">
+                    <h2>Categoría</h2>
+                    
+                    <ul>
+                        <li><a href="Categoria/hogar.html" title="Explorar la categoría hogar"><h3>Hogar</h3></a></li>
+                        <li><a href="Categoria/belleza.html" title="Explorar la categoría belleza"><h3>Belleza</h3></a></li>
+                        <li><a href="Categoria/tecnologia.html" title="Explorar la categoría tecnología"><h3>Tecnología</h3></a></li>
+                    </ul>
+                </li>
+                <li><h2>Contacto</h2></li>
+            </ul>
+
+            <div class="TWO">
+                <button id="Lupa" title="Abrir buscador">
+                    <img src="Icons/lupa.svg" width="30" height="30" alt="Abrir buscador">
+                </button>
+                
+                <a href="carrito-de-compras.html" title="Abrir carrito de compras">
+                    <picture>
+                        <source srcset="Icons/cart.webp" type="image/webp">
+                        <img src="Icons/cart.png" width="30" height="30" alt="Carrito de compras">
+                    </picture>
+                    <span id="Numero">0</span>
+                </a>
+
+                <button id="Menu" title="Abrir menú">
+                    <img src="Icons/menu.svg" width="30" height="30" alt="Abrir menú">
+                </button>
+            </div>
+        </nav>
+
+        <script src="JS/function.js" defer=""></script>
+    </body>
+</html>
