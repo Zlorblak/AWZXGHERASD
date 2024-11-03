@@ -257,9 +257,10 @@ article h3 {
     color: white;
     position: relative;
     top: -55%;
-    left: 68%;
+    left: 50%;
     transform: translateX(-50%);
     width: fit-content;
+    font-size: 28px;
 }
 
 @media (max-width:650px){
