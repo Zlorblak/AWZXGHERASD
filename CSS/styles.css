@@ -96,10 +96,11 @@ ul {
 }
 
 nav {
-    margin-top: 103px;
+    margin-top: 73px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: white;
 }
 
 nav ul li {
@@ -206,6 +207,59 @@ nav ul .Search .Options button {
 nav ul .Search:hover, nav ul .Menu-Logo:hover,nav ul .Menu-Logo h2:hover {
     background-color: #ccc;
     font-weight: 500;
+}
+
+main {
+    padding-top: 267px;
+}
+
+main .Container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+hr {
+    width: 94%;
+    margin: 20px auto;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+}
+
+article {
+    width: 250px;
+    height: 250px;
+}
+
+article img {
+    border-radius: 10px;
+}
+
+.Cateogria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+article h3 {
+    color: white;
+    position: relative;
+    top: -55%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
 }
 
 @media (max-width:650px){
