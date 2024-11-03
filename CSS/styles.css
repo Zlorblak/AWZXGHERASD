@@ -259,12 +259,16 @@ article img {
 
 article h3 {
     color: white;
-    position: relative;
-    top: -55%;
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     width: fit-content;
     font-size: 28px;
+}
+
+article.Nicho:hover {
+    transform: scale(0.9);
 }
 
 @media (max-width:650px){
