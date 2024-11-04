@@ -244,6 +244,7 @@ article {
     position: relative;
     z-index: 5;
     transition: transform 0.3s ease;
+    border-radius: 10px;
 }
 
 article img {
@@ -269,7 +270,7 @@ article h3 {
     font-size: 28px;
 }
 
-article.Nicho:hover {
+article.Nicho:hover, article.Nicho:focus {
     transform: scale(0.9);
 }
 
