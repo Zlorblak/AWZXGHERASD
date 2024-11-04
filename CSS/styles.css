@@ -171,6 +171,7 @@ nav ul .Search {
     align-items: center;
     gap: 40px;
     transition: top 1s ease;
+    z-index: 1;
 }
 
 nav ul .Search .Options input {
@@ -311,6 +312,7 @@ footer h2 {
 
 footer p {
     margin: 10px 0;
+    font-size:clamp(14px,4vw,16px);
 }
 
 footer a {
@@ -350,5 +352,11 @@ footer a {
 
     #Lupa,#Close-1 {
         display: none;
+    }
+}
+
+@media (max-width:532px) {
+    footer section {
+        width: 94%;
     }
 }
