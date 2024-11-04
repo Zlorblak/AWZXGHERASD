@@ -37,13 +37,13 @@ for(let i=0; i< productos.length;i++){
 
     if(producto.Color && !producto.rutaImagen){
         const primerColor = Object.values(producto.Color)[0];
-        sourceWEBP.srcset = `../${primerColor.imagen0}`;
-        sourcePNG.srcset = `../${primerColor.imagenRespaldo0}`;
-        IMG.setAttribute("data-src", `../${primerColor.imagenRespaldo0}`);
+        sourceWEBP.srcset = primerColor.imagen0;
+        sourcePNG.srcset = primerColor.imagenRespaldo0;
+        IMG.setAttribute("data-src", primerColor.imagenRespaldo0);
     } else if(producto.rutaImagen){
-        sourceWEBP.srcset = `../${producto.rutaImagen.imagen0}`;
-        sourcePNG.srcset = `../${producto.rutaImagen.imagenRespaldo0}`;
-        IMG.setAttribute("data-src", `../${producto.rutaImagen.imagenRespaldo0}`);
+        sourceWEBP.srcset = producto.rutaImagen.imagen0;
+        sourcePNG.srcset = producto.rutaImagen.imagenRespaldo0;
+        IMG.setAttribute("data-src", producto.rutaImagen.imagenRespaldo0);
     }
 
     picture.appendChild(sourceWEBP);
