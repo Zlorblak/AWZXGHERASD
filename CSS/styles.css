@@ -211,7 +211,7 @@ nav ul .Search:hover, nav ul .Menu-Logo:hover,nav ul .Menu-Logo h2:hover {
 }
 
 main {
-    padding-top: 267px;
+    padding: 267px 0 50px 0;
 }
 
 main .Container {
@@ -292,6 +292,29 @@ article.One h2 {
 article.One p {
     width: 95%;
     margin: 0 auto;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    color:White;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+footer h2 {
+    text-align: left;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    border-bottom: 1px solid white;
 }
 
 @media (max-width:650px){
