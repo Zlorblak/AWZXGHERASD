@@ -274,6 +274,26 @@ article.Nicho:hover, article.Nicho:focus {
     transform: scale(0.9);
 }
 
+article.One {
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 265px;
+}
+
+article.One img {
+    margin-top: 30px;
+}
+
+article.One h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+article.One p {
+    width: 95%;
+    margin: 0 auto;
+}
+
 @media (max-width:650px){
     nav ul {
         position: absolute;
