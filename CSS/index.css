@@ -212,102 +212,88 @@ nav ul .Search:hover, nav ul .Menu-Logo:hover,nav ul .Menu-Logo h2:hover {
     font-weight: 500;
 }
 
-h2 {
-    text-align: center;
-    margin: 20px 0 50px 0;
-}
-
 main {
     padding: 267px 0 50px 0;
 }
 
-main section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px 60px;
+main .Container {
+    width: 80%;
+    margin: 0 auto;
 }
 
-article {
-    max-width: 270px;
-    height: 406px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
+h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+hr {
+    width: 94%;
+    margin: 20px auto;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+}
+
+article{
+    width: 250px;
+    height: 250px;
     position: relative;
-    font-size: 18px;
-}
-
-h3 {
-    font-size: 20px;
-    font-weight: 600;
-}
-
-article .Precio {
-    display: flex;
-    font-weight: 500;
-    position: absolute;
-    top: 320px;
-}
-
-article .Precio #PrecioReal {
-    text-decoration: line-through;
-    font-weight: 400;
-    color: #595959;
-    margin: 0 20px;
-}
-
-article .boton-agregar {
-    position: absolute;
-    top: 373px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1D71E6;
-    color: #fff;
-    padding: 3px;
-    border-radius: 5px;
-    width: 270px;
-    height: 41px;
-    font-size: 17px;
-}
-
-.PageOverlay {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
-    z-index: 19;
-}
-
-.Overlay {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 8px;
-      padding-bottom: 0px;
-    padding-bottom: 20px;
-    width: 500px;
-    border: 1px solid;
+    z-index: 5;
+    transition: transform 0.3s ease;
     border-radius: 10px;
-    position: relative;
 }
 
-.PageOverlay .Overlay .Contenedor {
+article img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Cateogria {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+article h3 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    font-size: 28px;
+}
+
+article.Nicho:hover, article.Nicho:focus {
+    transform: scale(0.9);
+}
+
+article.One {
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 265px;
+}
+
+article.One img {
+    margin-top: 30px;
+}
+
+article.One h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+article.One p {
+    width: 95%;
+    margin: 0 auto;
 }
 
 footer {
