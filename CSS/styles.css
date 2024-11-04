@@ -243,6 +243,7 @@ article {
     height: 250px;
     position: relative;
     z-index: 5;
+    transition: transform 0.3s ease;
 }
 
 article img {
@@ -255,6 +256,7 @@ article img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 article h3 {
